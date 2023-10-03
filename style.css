@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    background: url("pictures/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-content: center;
+    text-align: center;
+}
+
+header {
+    text-align: center;
+    padding: 20px 0;
+    height : 30vh;
+    flex-direction: row-reverse;
+}
+
+header h1 {
+	font-family: "Proza Libre", sans-serif;
+    font-size: 7rem;
+    margin-bottom: 10px;
+    color: black;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    align-content: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+    align-content: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none; 
+    flex-direction: row;
+}
+
+
+/* flexbox align-content, align-items, flex-direction */
+.image-section {
+    display: flex;
+    align-items: center; 
+}
+
+.image-section img {
+    max-width: 50%;
+    margin-right: 20px;
+    align-items: center;
+}
+
+
+.highlight {
+    background-color: #000;
+    padding: 5px 10px; 
+    border-radius: 100px; 
+    align-content: space-evenly;
+}
+
+.data-section {
+    max-width: 50%; 
+    margin: 20px auto; 
+    padding: 20px;
+    box-sizing: border-box; 
+    text-align: justify; 
+    background-color: white;
+    align-content: space-between;
+}
+
+.data-section p {
+    color: #333; 
+    font-size: 16px; 
+    font-weight: bold; 
+    flex-direction: row-reverse;
+}
+
+.data-section h1 {
+    color: #333; 
+    font-size: 2rem; 
+    font-weight: bold; 
+    text-align: center;
+}
